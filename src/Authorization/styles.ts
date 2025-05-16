@@ -18,6 +18,16 @@ container:{ alignItems: "center",
    
 },
 
+inputWrappoer: {
+    width: "50%",
+    color: "#000000",
+    borderRadius: 3,
+    borderWidth: 3,
+    margin: 8,
+
+
+},
+
 button: {
     height: 30,
     width: 100,
