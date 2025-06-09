@@ -1,19 +1,12 @@
 
 import React from 'react';
-import { Authorization } from './src/Authorization';
-import {
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { View } from 'react-native';
+import { RootNavigation } from './src/navigation/RootNavigation';
 
-const App =() => {
+const App = () => {
   return (
-    <View style={{flex: 1}}>
-      <Authorization/>  
+    <View style={{ flex: 1 }}>
+      <RootNavigation />
     </View>
   );
 };
