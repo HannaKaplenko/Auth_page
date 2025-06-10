@@ -44,7 +44,6 @@ export const ProductsView = () => {
                 )}
             ></FlatList>
             <Image source={require('../../../assets/images/pic.png')} style={styles.image} />
-            <View><TouchableOpacity> <Text style={styles.buttonText}>Add to cart</Text></TouchableOpacity></View>
         </View>
     );
 };

@@ -1,7 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import { AuthorizationView } from "../modules/Authorization";
 import { ProductsView } from "../modules/products";
-import { ProductDetailsView } from "../modules/product/ui";
+import { ProductDetailsView } from "../modules/productDetails/ui";
 
 const Stack = createStackNavigator();
 
