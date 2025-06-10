@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState} from 'react';
+import { useState } from 'react';
 import { styles } from './styles';
 import { Text, TouchableOpacity, View, TextInput, } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -48,14 +48,14 @@ export const AuthorizationView = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.message}> This is our main page </Text>
-      <View style={styles.inputWrappoer}>
+      <View style={styles.inputWrapper}>
         <TextInput
           value={form.login}
           onChangeText={OnChangeLogin}
           placeholder="Your login"
           style={styles.input}></TextInput>
       </View>
-      <View style={styles.inputWrappoer}>
+      <View style={styles.inputWrapper}>
         <TextInput
           value={form.password}
           onChangeText={OnChangePassword}

@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         padding: 16,
-        backgroundColor: "#F5F5F5",
+        backgroundColor: "#483D8B",
         lineHeight: 16,
         alignItems: "center",
     },
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         fontSize: 16,
     },
     button: {
-        backgroundColor: '#000000',
+        backgroundColor:"#FE4F2D",
         paddingVertical: 12,
         paddingHorizontal: 24,
         borderRadius: 8,
@@ -62,6 +62,6 @@ export const styles = StyleSheet.create({
         height: 180,
         width: 380,
         marginTop: 16,
-        
+
     }
 });
