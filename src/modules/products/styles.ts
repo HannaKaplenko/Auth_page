@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         fontSize: 16,
     },
     button: {
-        backgroundColor:"#FE4F2D",
+        backgroundColor: "#FE4F2D",
         paddingVertical: 12,
         paddingHorizontal: 24,
         borderRadius: 8,
@@ -59,9 +59,9 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     image: {
-        height: 180,
+        height: 200,
         width: 380,
         marginTop: 16,
-
+        margin: 12
     }
 });

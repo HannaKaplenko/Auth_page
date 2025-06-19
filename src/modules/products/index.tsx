@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { styles } from './styles';
 import { Image, Text, TouchableOpacity, View } from 'react-native';
-import { FlatList } from 'react-native-gesture-handler';
+import { FlatList, ScrollView } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -27,7 +27,7 @@ export const ProductsView = () => {
         <View style={styles.container}>
             <FlatList
                 horizontal
-                showsHorizontalScrollIndicator={false}
+                showsHorizontalScrollIndicator={true}
                 showsVerticalScrollIndicator={false}
                 data={products}
                 keyExtractor={(item) => item.id.toString()}
@@ -41,9 +41,17 @@ export const ProductsView = () => {
                         <Text style={styles.message}>
                             <Text style={styles.categoryText}>Category name: </Text> {item.slug} </Text>
                     </View>
-                )}
-            ></FlatList>
-            <Image source={require('../../../assets/images/pic.png')} style={styles.image} />
+                )} >
+            </FlatList>
+            <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={true}
+                showsVerticalScrollIndicator={false}>
+                <Image source={require('../../../assets/images/big_sale.png')} style={styles.image} />
+                <Image source={require('../../../assets/images/pic.png')} style={styles.image} />
+                <Image source={require('../../../assets/images/fashion_pic.png')} style={styles.image} />
+                <Image source={require('../../../assets/images/sale_pic.png')} style={styles.image} />
+            </ScrollView>
         </View>
     );
 };
