@@ -47,9 +47,9 @@ export const ProductsView = () => {
                 horizontal
                 showsHorizontalScrollIndicator={true}
                 showsVerticalScrollIndicator={false}>
-                <Image source={require('../../../assets/images/big_sale.png')} style={styles.image} />
-                <Image source={require('../../../assets/images/pic.png')} style={styles.image} />
-                <Image source={require('../../../assets/images/fashion_pic.png')} style={styles.image} />
+                <TouchableOpacity><Image source={require('../../../assets/images/big_sale.png')} style={styles.image} /></TouchableOpacity>
+                <TouchableOpacity><Image source={require('../../../assets/images/pic.png')} style={styles.image} /></TouchableOpacity>
+                <TouchableOpacity><Image source={require('../../../assets/images/fashion_pic.png')} style={styles.image} /></TouchableOpacity>
                 <Image source={require('../../../assets/images/sale_pic.png')} style={styles.image} />
             </ScrollView>
         </View>

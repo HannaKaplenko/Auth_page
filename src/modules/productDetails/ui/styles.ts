@@ -16,12 +16,13 @@ export const styles = StyleSheet.create({
         paddingBottom: 20,
     },
     image: {
+        marginVertical: 16,
         width: "100%",
         height: 400,
         backgroundColor: "#FFFFFFF",
     },
     label: {
-        color:"#000000",
+        color: "#000000",
         fontWeight: "bold",
         fontSize: 20,
         textAlign: "center",
@@ -29,7 +30,7 @@ export const styles = StyleSheet.create({
         marginBottom: 10,
     },
     brand: {
-        color:"#000000",
+        color: "#000000",
         fontWeight: "bold",
         fontSize: 24,
         lineHeight: 28,

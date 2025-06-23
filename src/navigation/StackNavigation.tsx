@@ -1,6 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { AuthorizationView } from "../modules/Authorization";
-import { ProductsView } from "../modules/products";
+import { AuthorizationView } from "../modules/Authorization/ui";
+import { ProductsView } from "../modules/products/ui";
 import { ProductDetailsView } from "../modules/productDetails/ui";
 
 const Stack = createStackNavigator();
